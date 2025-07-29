@@ -1,4 +1,26 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  max-width: 1296px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+h1{
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  svg{
+    width: 8px;
+    height: 8px;
+    top: 4px;
+    left: 108px;
+    color: $primary-300;
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+a:hover{
+  color: $Link-Red;
 }

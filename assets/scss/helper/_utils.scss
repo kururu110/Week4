@@ -1,0 +1,72 @@
+/*通用樣式*/
+.d-flex{
+    display: flex;
+}
+
+.m0-auto{
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.font-28{
+    font-size: 28px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+
+.font-64{
+    font-size: 64px;
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.gap-48{
+    gap: 48px;
+}
+
+.btn-12{
+    padding: 12px 24px 12px 24px;
+}
+
+.pt-8{
+    padding-top: 8px;
+}
+
+.pt-36{
+    padding-top: 36px;
+}
+
+.pb-48{
+    padding-bottom: 48px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}

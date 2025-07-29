@@ -1,4 +1,35 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background: $Neutral-100;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footerList{
+  margin: 0 auto;
+  max-width: 1296px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  svg{
+    width: 8px;
+    height: 8px;
+    top: 4px;
+    left: 108px;
+    color: $primary-300;
+    position: absolute;
+    z-index: 0;
+  }
+}
+
+.copyright{
+  max-width: 1296px;
+  margin: 0 auto;
+  border-top: 1px solid #6C757D;
+  margin-top: 16px;
 }
